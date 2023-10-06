@@ -4,12 +4,12 @@ public class IntegerExample {
 
 	public static void main(String[] args) {
 		
-		int i = 10;
+		int customerNo = 10;
 		
-		System.out.println("i = " + i);
+		System.out.println("i = " + customerNo);
 		
 		Integer intObj = 10;
-		System.out.println("intObj = " + i);
+		System.out.println("intObj = " + customerNo);
 		
 		System.out.println("primitive int value is = " + intObj.intValue());
 		
