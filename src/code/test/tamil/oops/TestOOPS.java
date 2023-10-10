@@ -43,7 +43,7 @@ public class TestOOPS {
 		System.out.println("tamilselvanMother info.....");
 		System.out.println(tamilselvanMother);
 		
-		System.out.println("tamilselvan info.....");
+		System.out.println("tamilselvan info......");
 		System.out.println(tamilselvan);
 		
 		//Abstraction
