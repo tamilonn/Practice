@@ -54,12 +54,13 @@ public abstract class Human {
 
 	public String see() {
 		System.out.println(name + " is seeing");
-		return name + " is seeing";
+		return eyes + " is seeing";
 	}
 	
 	public String listen() {
 		System.out.println(name + " is listening a song");
 		return name + " is listening a song";
+		
 	}
 	
 	
@@ -161,6 +162,11 @@ public abstract class Human {
 				.append("3.").append(smell());
 		
 		System.out.println(sb.toString());
+	}
+	
+	
+	public void useless() {
+		System.out.println("I'm useless method");
 	}
 
 }
