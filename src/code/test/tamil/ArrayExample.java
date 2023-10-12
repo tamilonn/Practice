@@ -10,6 +10,12 @@ public class ArrayExample {
 		
 		char[] cArray = {'A', 'a', 'z', 'V'};
 		
+		char c1 = 'A';
+		char c2 = '1';
+		char c3 = '0';
+		
+		String s1 = "A10";
+		
 		
 		System.out.println("Integer values in intArray are....");
 		

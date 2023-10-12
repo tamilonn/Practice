@@ -6,7 +6,7 @@ public class TestOOPS {
 		
 		//Creating Tamilselvan family
 
-		///int eyes, int ears, String nose, int hands, int legs, String name, int age
+		//int eyes, int ears, String nose, int hands, int legs, String name, int age
 		
 		/* creating Parents */
 		Male tamilselvanFather = new Male(2, 2, "Brown Nose", 2, 2, "A.Radhakrishan", 80);
@@ -48,11 +48,25 @@ public class TestOOPS {
 		
 		//Abstraction
 		tamilselvan.see();
+		navya.see();
+	
+		
 		tamilselvan.listen();
+		navya.listen();
 		
-		
+//		
+//		
 		//Encapsulation
 		tamilselvan.perform();
+		
+		
+		//Polymorpism
+		
+		
+		
+		
+		
+		
 
 	}
 
