@@ -30,6 +30,15 @@ public abstract class Human {
 	
 	 */
 	
+	public static void main(String[] args) {
+		
+		Human h1 = new Human();
+		h1.eyes = 2;
+		
+		
+		
+	}
+	
 	//constructor
 	public Human() {
 		
@@ -103,6 +112,7 @@ public abstract class Human {
 
 	public void setEyes(int eyes) {
 		this.eyes = eyes;
+		
 	}
 
 	public int getEars() {
