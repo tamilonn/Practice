@@ -32,8 +32,7 @@ public abstract class Human {
 	
 	public static void main(String[] args) {
 		
-		Human h1 = new Human();
-		h1.eyes = 2;
+		
 		
 		
 		

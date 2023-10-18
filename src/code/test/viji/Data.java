@@ -17,6 +17,10 @@ public class Data {
 		System.out.println("float "+f);
 		System.out.println("byte "+b);
 		
+		String str = "Tamilselvan";
+		
+		System.out.println(str);
+		
 	}
 
 }
