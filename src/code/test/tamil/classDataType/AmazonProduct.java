@@ -2,6 +2,8 @@ package code.test.tamil.classDataType;
 
 public class AmazonProduct {
 	
+	private int skuNo;
+	
 	private String brandName;
 	
 	private String modelName;
@@ -51,11 +53,21 @@ public class AmazonProduct {
 	public void setDiscount(double discount) {
 		this.discount = discount;
 	}
+	
+	
+
+	public int getSkuNo() {
+		return skuNo;
+	}
+
+	public void setSkuNo(int skuNo) {
+		this.skuNo = skuNo;
+	}
 
 	@Override
 	public String toString() {
-		return "AmazonProduct [brandName=" + brandName + ", modelName=" + modelName + ", size=" + size + ", price="
-				+ price + ", discount=" + discount + "]";
+		return "AmazonProduct [skuNo=" + skuNo + ", brandName=" + brandName + ", modelName=" + modelName + ", size="
+				+ size + ", price=" + price + ", discount=" + discount + "]";
 	}
 	
 	
