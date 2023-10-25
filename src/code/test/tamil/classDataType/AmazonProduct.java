@@ -1,7 +1,6 @@
 package code.test.tamil.classDataType;
 
 public class AmazonProduct {
-	
 	private int skuNo;
 	
 	private String brandName;
