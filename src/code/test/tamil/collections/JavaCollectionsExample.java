@@ -3,9 +3,12 @@ package code.test.tamil.collections;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class JavaCollectionsExample {
 
@@ -23,9 +26,35 @@ public class JavaCollectionsExample {
 		//Iterator
 		executeIterator();
 		
+		//HashSet
+		executeHashSet();
+		
+		//TreeSet
+		executeTreeSet();
 		
 		
 
+	}
+
+	private static void executeTreeSet() {
+
+		Set myTreeSet = new TreeSet<String>();
+		myTreeSet.add("Zebra");
+		myTreeSet.add("Annai");
+		myTreeSet.add("Brindavan");
+		myTreeSet.add("Zebra");
+		
+		System.out.println("MyTreeSet contains: " + myTreeSet);
+	}
+
+	private static void executeHashSet() {
+
+		Set myHashSet = new HashSet<Integer>();
+		myHashSet.add(500);
+		myHashSet.add(100);
+		myHashSet.add(200);
+		myHashSet.add(200);
+		System.out.println("Hashset contains: " + myHashSet);
 	}
 
 	private static void executeIterator() {
@@ -38,6 +67,11 @@ public class JavaCollectionsExample {
 		
 		while (itr.hasNext()) {
 			System.out.println("myArrayList element is: " + itr.next());
+		}
+		
+		//Instead we cna  use for loop
+		for (int i=0; i< myArrayList.size(); i++ ) {
+			System.out.println("Using for loop.. myArrayList element is: " + myArrayList.get(i));
 		}
 		
 		
@@ -62,11 +96,7 @@ public class JavaCollectionsExample {
 		Date myDate = new Date();
 		System.out.println("myDate is : " + myDate);
 		
-		Date yesterday = new Date(2023, 10, 22);
-		
-		System.out.println("Yesterday is : " + yesterday);
-		
-		System.out.println("before date is : " + myDate.before(yesterday));
+
 	}
 
 	/*
