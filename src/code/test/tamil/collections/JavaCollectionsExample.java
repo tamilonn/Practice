@@ -89,6 +89,8 @@ public class JavaCollectionsExample {
 		}
 		
 		System.out.println("myMap contains: "+ myMap);
+		
+		System.out.println("Key 1000 returns value : "+ myMap.get(1000));
 	}
 
 	private static void executeDate() {
